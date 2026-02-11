@@ -1,0 +1,12 @@
+.btn2 {
+    width: 150px;
+    height: 36px;
+    border-radius: 7px;
+    background: #E4E6EB;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    border: none;
+}
