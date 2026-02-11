@@ -1,0 +1,8 @@
+.column3 {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-right: 10px;
+    width: 332px;
+}
