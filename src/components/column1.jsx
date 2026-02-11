@@ -3,6 +3,7 @@ import Btn1 from '../components/button';
 import './column1.css';
 import Watch from './watch';
 import './textstyles.css';
+import Title from './title';
 
 const Column1 = () => {
     return ( 
@@ -15,7 +16,7 @@ const Column1 = () => {
                 <Watch />
                 <Watch />
             </div>
-            <h4>Title</h4>
+            <Title />
         </div>
         </>
      );

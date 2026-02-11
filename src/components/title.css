@@ -1,0 +1,11 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h6 {
+    color: #1877F2;
+}
