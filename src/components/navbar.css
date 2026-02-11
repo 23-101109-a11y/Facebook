@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px 15px 40px;
+    background-color: white;
+}
+
+.logo {
+    width: 40px;
+    height: 41.555px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-items {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}

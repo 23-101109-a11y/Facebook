@@ -1,0 +1,19 @@
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 34px;
+    padding-left: 10px;
+    padding-right: 18px;
+    width: 345px;
+    background: #FFF;
+    height: 100vh;
+}
+
+.watch-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 75px;
+}
