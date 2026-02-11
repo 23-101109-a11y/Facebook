@@ -1,8 +1,10 @@
 .profiles {
+    margin-top: 17px;
     display: flex;
+    flex-direction: row;
     padding: 10px 32px;
     background-color: white;
     border-radius: 7px;
-    width: 710px;
-    height: 280px;
+    gap: 5px;
+    max-height: fit-content;
 }
