@@ -1,0 +1,31 @@
+.post {
+    background: #FFF;
+    min-width: 710px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 14px;
+}
+
+.profile-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.person {
+    display: flex;
+    gap: 5px;
+}
+
+.date {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.date img {
+    width: 11px;
+    height: 11px;
+}

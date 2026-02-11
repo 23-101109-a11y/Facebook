@@ -1,6 +1,6 @@
 .thoughts {
     background-color: white;
-    width: 710px;
+    min-width: 710px;
     height: fit-content;
     padding-left: 27px;
     padding-top: 12px;
