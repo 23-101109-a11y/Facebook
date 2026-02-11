@@ -4,5 +4,5 @@
     flex-direction: column;
     gap: 12px;
     padding-right: 10px;
-    width: 332px;
+    min-width: 332px;
 }
