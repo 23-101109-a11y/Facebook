@@ -4,6 +4,7 @@ import './column1.css';
 import Watch from './watch';
 import './textstyles.css';
 import Title from './title';
+import GroupProfile from './groupprofile';
 
 const Column1 = () => {
     return ( 
@@ -17,6 +18,12 @@ const Column1 = () => {
                 <Watch />
             </div>
             <Title />
+            <GroupProfile />
+            <GroupProfile />
+            <GroupProfile />
+            <GroupProfile />
+            <GroupProfile />
+            <GroupProfile />
         </div>
         </>
      );
