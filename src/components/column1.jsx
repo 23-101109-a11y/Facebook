@@ -18,7 +18,7 @@ const Column1 = () => {
     return ( 
         <>
         <div className="column1">
-            <Btn1 title="Confirm" style="btn1" />
+            <Btn1 title="Confirm" styling="btn1" />
             <div className="watch-column">
                 <Watch />
                 <Watch />

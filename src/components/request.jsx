@@ -8,7 +8,7 @@ const FollowRequest = (props) => {
         <div className="request">
             <div className="top-row">
                 <div className="request-profile">
-                    <img src= {props.pfp} />
+                    <img src= {props.pfp} alt='pfp' />
                     <h6>
                         {props.name}
                     </h6>
@@ -16,8 +16,8 @@ const FollowRequest = (props) => {
                 <h4>4H</h4>
             </div>
             <div className="bottom-row">
-                <Btn1 title="Confirm" style="btn1" />
-                <Btn1 title="Delete" style="btn2" />
+                <Btn1 title="Confirm" styling="btn1" />
+                <Btn1 title="Delete" styling="btn2" />
             </div>
         </div>
         </>
