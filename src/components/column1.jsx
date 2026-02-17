@@ -5,12 +5,13 @@ import Watch from './watch';
 import './textstyles.css';
 import Title from './title';
 import GroupProfile from './groupprofile';
+import './button.css';
 
 const Column1 = () => {
     return ( 
         <>
         <div className="column1">
-            <Btn1 />
+            <Btn1 title="Confirm" style="{btn1}" />
             <div className="watch-column">
                 <Watch />
                 <Watch />

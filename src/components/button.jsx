@@ -1,10 +1,13 @@
 import React from 'react';
 import './button.css';
 
-const Btn1 = () => {
+const Btn1 = (props) => {
+
     return ( 
         <>
-        <button className='btn1'>Confirm</button>
+        <button className='{props.style}'>
+            {props.title}
+            </button>
         </>
      );
 }
