@@ -1,14 +1,15 @@
 import React from 'react';
 import './textstyles.css';
-import grouppfp from '../assets/groupprofile.png';
 import './groupprofile.css';
 
-const GroupProfile = () => {
+const GroupProfile = (props) => {
     return ( 
         <>
         <div className="group-profile">
-            <img className='pfp' src={grouppfp} alt="group pfp" />
-            <h3>UI / UX Designers & Developers</h3>
+            <img className='pfp' src={props.grouppfp} alt="group pfp" />
+            <h3>
+                {props.groupname}
+                </h3>
         </div>
         </>
      );

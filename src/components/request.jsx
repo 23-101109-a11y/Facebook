@@ -1,23 +1,23 @@
 import React from 'react';
 import Btn1 from './button';
-import Btn2 from './button2';
-import pfp4 from '../assets/pfp4.svg';
 import './request.css';
 
-const FollowRequest = () => {
+const FollowRequest = (props) => {
     return ( 
         <>
         <div className="request">
             <div className="top-row">
                 <div className="request-profile">
-                    <img src={pfp4} alt="guy's pfp" />
-                    <h6>Guy Hawkins</h6>
+                    <img src= {props.pfp} />
+                    <h6>
+                        {props.name}
+                    </h6>
                 </div>
                 <h4>4H</h4>
             </div>
             <div className="bottom-row">
-                <Btn1 />
-                <Btn2 />
+                <Btn1 title="Confirm" style="btn1" />
+                <Btn1 title="Delete" style="btn2" />
             </div>
         </div>
         </>

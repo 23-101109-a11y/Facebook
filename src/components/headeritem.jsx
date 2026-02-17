@@ -1,9 +1,8 @@
 import React from 'react';
-import headeritem from '../assets/header-item.svg';
 
-const HeaderItem = () => {
+const HeaderItem = (props) => {
     return ( 
-        <img src={headeritem} alt="home icon" />
+        <img src={props.headeritem} />
      );
 }
  

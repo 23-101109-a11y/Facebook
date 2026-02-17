@@ -5,7 +5,7 @@ const Btn1 = (props) => {
 
     return ( 
         <>
-        <button className='{props.style}'>
+        <button className={props.style}>
             {props.title}
             </button>
         </>
